@@ -41,10 +41,12 @@ You can run postgres locally or get a database online.
 
 Run the following commands start up Openship:
 
-```js
+```bash
 $ cd openship
-$ yarn install
-$ yarn dev
+$ pnpm install
+$ pnpm dev
+$ npx keystone prisma migrate dev
+$ npx keystone prisma migrate deploy
 ```
 
 ### Openship: http://localhost:3000
