@@ -44,9 +44,9 @@ Run the following commands start up Openship:
 ```bash
 $ cd openship
 $ pnpm install
-$ pnpm dev
 $ npx keystone prisma migrate dev
 $ npx keystone prisma migrate deploy
+$ pnpm dev
 ```
 
 ### Openship: http://localhost:3000
